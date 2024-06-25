@@ -1,0 +1,23 @@
+.parent{
+    background-color: rgb(222, 213, 117);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    /* vh- veiwport height */
+
+}
+.ch{
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+}
+.ch1{
+    background-color: black;
+}
+.ch2{
+    background-color: blueviolet;
+}
+
+
+    

@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(88, 86, 86);
+
+}
+nav .list{
+    display: flex;
+    padding-right: 70px;
+
+}
+nav .list li{
+    list-style: none;
+    padding: 20px;
+}
+nav .list li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+}
+nav .logo{
+    padding-left: 50px;
+    padding-top: 10px;
+
+
+
+}
+nav .logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.container{
+    height: 500px;
+    background-color:rgb(88, 86, 86);
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 17rem;
+    color:white;
+
+    
+    
+}
+.container .box1 h1{
+    font-size: 40px;
+    padding:25px 0px;
+
+}
+.container .box1 button{
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid rgb(247, 246, 246);
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgb(235, 21, 21);
+    color:white;
+    text-transform: uppercase;
+
+}
+.container .box1 p{
+    font-family: cursive;
+    font-weight: 18px;
+    font-weight: 500;
+}
+.container .box2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
